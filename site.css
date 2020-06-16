@@ -1,0 +1,230 @@
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+.titulo-principal {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 1.25rem;
+	border-bottom: 0.5rem solid black;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+.citacao-bio:nth-of-type(even) {
+	background-color: #D9E5E3;
+	border: .5em solid #C2CCCA;
+	width: 30ch;
+    padding: 1em;
+	box-sizing: border-box;
+	margin: 1em 2em;
+}
+
+.navegacao-site {
+	text-align: center;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+    width: 15%;
+    padding-top: calc(300px + 1em)
+}
+
+.rodape-pagina {
+	color: #F2FFFC;
+	clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-image: radial-gradient(ellipse at left bottom,
+    rgba(60, 29, 61, 0.8),
+    rgba(60, 29, 61, 0.8) 65%,
+    black 65%,
+    black 70%,
+    transparent 70%,
+    transparent);
+    width:100%;
+    background-size: 25% 100%;
+    background-repeat: no-repeat;
+}
+
+main a {
+	color: #851944;
+}
+
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.citacao-bio, .navegacao-site, .rodape-pagina {
+    padding: 20px;
+}
+
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+    padding-bottom: 80px;
+}
+
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.subtitulo-texto {
+	font-size: 30px;
+	clear: both;
+}
+
+.icones-redes-sociais li {
+	display: inline-block;
+}
+
+.artigo {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.leia-mais {
+	padding: .5em;
+    margin: 1em;
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #E6E7E8;
+}
+
+nav a {
+	text-transform: lowercase;
+}
+
+.icones-redes-sociais a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -99999px;
+}
+
+.github {
+	background-image: url(github.png);
+}
+
+.twitter {
+	background-image: url(twitter.png);
+}
+
+.linkedin {
+	background-image: url(linkedin.png);
+}
+
+blockquote:nth-of-type(odd) {
+	float: right;
+}
+
+.petrobras {
+	float: left;
+}
+
+.minha-foto, .navegacao-site {
+	float: right;
+	box-sizing: border-box;
+}
+
+cite {
+	font-style: italic;
+	float: right;
+}
+
+.navegacao-site {
+ 
+    clear:right;     width: 15%;
+    position:relative;
+    top: 310px;
+}
+
+.minha-foto {
+    
+    position: absolute;
+    top:0;
+    right:0;
+    border-bottom: .5em solid black;
+}
+}
+
+main a:hover
+main a:focus
+footer a:hover
+footer a:focus {
+    color:red;}
+
+.citacao-bio:hover,
+.citacao-bio:focus {
+    box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
+}
+
+.citacao-bio:nth-of-type(odd):hover,
+.citacao-bio:nth-of-type(odd):focus {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.citacao-bio:nth-of-type(even):hover,
+.citacao-bio:nth-of-type(even):focus {
+    transform: scale(1.2) rotate(-5deg);
+}
+
+.habilidades th {
+    font-weight: bold;
+    background-color: #851944;
+    color: white;
+}
+
+.Habilidades thead th {
+    
+    background-color: #3C1D3D;
+}
+
+.Habilidades td {
+    background-color: #eee;
+}
+
+.Habilidades th,
+.Habilidades td {
+    padding: 1em;
+}
+
+.Habilidades {
+    border-collapse: separate;
+    border-spacing: .25em;
+    margin: 1em 0;
+}
+.habilidades [colspan] {
+    text-align: center;
+    font-style: italic;
+}
+main {
+    flex-grow: 1;
+}
